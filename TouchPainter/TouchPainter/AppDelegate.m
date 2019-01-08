@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "CanvasViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    self.window.rootViewController = [UIViewController new];
+    self.window.rootViewController = [CanvasViewController new];
+    
     
     return YES;
 }
